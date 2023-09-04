@@ -2,8 +2,10 @@ import React from 'react'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <div>
+    Tems
+      </div>
   )
 }
 
-export default Cart
+export default Cart;

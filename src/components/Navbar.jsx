@@ -4,7 +4,7 @@ import { ShoppingCart } from 'phosphor-react'
 
 const Navbar = () => {
   return (
-    <div className='w-screen h-[70px] bg-lime-950 flex items-center justify-between text-white'>
+    <div className='w-screen h-[70px] bg-black flex items-center justify-between text-white'>
        <p className='text-lg font-semibold ml-11'>D'Royal Guise Store</p>
         <div className='mr-[50px] flex items-center '>
             <Link  className='ml-[20px] text-[25px]' to='/'> Shop</Link>
