@@ -7,9 +7,9 @@ export const CartItem = (props) => {
     useContext(ShopContext);
 
   return (
-    <div className="w-[700px] h-[200px] flex items-center m-[30px] rounded-[25px] shadow-xl">
+    <div className="sm:w-[700px] sm:h-[200px] flex items-center m-[30px] rounded-[25px] shadow-xl w-screen">
       <img className="w-[200px]" src={productImage} alt="product pik" />
-      <div className="w-full text-[25px]">
+      <div className="w-full sm:text-[25px] text-[20px]">
         <p>
           <b>{productName}</b>
         </p>

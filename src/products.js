@@ -6,6 +6,7 @@ import product5 from "./assets/products/5.png";
 import product6 from "./assets/products/6.webp";
 import product7 from "./assets/products/7.webp";
 import product8 from "./assets/products/8.webp";
+import product9 from "./assets/products/7259d100740b4ecd8059f50e81b0d1a3.jpg"
 
 export const PRODUCTS = [
   {
@@ -55,5 +56,11 @@ export const PRODUCTS = [
     productName: "DON'T TRIP UNSTRUCTURED HAT",
     price: 40.0,
     productImage: product8,
+  },
+  {
+    id: 9,
+    productName: "SUIT",
+    price: 28000.0,
+    productImage: product9,
   },
 ];
