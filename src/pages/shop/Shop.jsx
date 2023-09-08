@@ -10,7 +10,7 @@ export const Shop = () => {
         <h1>D'Royal Guise Store</h1>
       </div>
 
-      <div className="w-full h-auto grid sm:grid-cols-3 place-items-center">
+      <div className="w-full h-auto grid sm:grid-cols-3 sm:place-items-center place-items-start mt-14 sm:mt-0 ml-3 sm:ml-0">
         {PRODUCTS.map((product) => (
           <Product data={product} />
         ))}

@@ -11,7 +11,7 @@ import product9 from "./assets/products/7259d100740b4ecd8059f50e81b0d1a3.jpg"
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "IPhone",
+    productName: "IPhone 13 Pro Max",
     price: 999.0,
     productImage: product1,
   },
@@ -29,7 +29,7 @@ export const PRODUCTS = [
   },
   {
     id: 4,
-    productName: "WLS Van Gogh Denim Jacket",
+    productName: "WLS Van Gogh Jacket",
     price: 228.0,
     productImage: product4,
   },
@@ -47,13 +47,13 @@ export const PRODUCTS = [
   },
   {
     id: 7,
-    productName: "AUTO SERVICE SHIRT by GOLF WANG",
+    productName: "T-Shirt",
     price: 120.0,
     productImage: product7,
   },
   {
     id: 8,
-    productName: "DON'T TRIP UNSTRUCTURED HAT",
+    productName: "DON'T TRIP HAT",
     price: 40.0,
     productImage: product8,
   },
